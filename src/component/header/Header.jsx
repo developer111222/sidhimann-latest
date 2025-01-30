@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
+
+  const [open, setOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setOpen(!open);
+  };
+
   return (
     <>
       {/* Theme color */}
@@ -121,7 +128,7 @@ const Header = () => {
                           
                         </li>
                         <li>
-                          <NavLink to="/causes">Causes</NavLink>
+                          <NavLink to="/cause-details">Causes</NavLink>
                           <ul>
                             <li>
                               <NavLink to="/cause-details">Cause Details</NavLink>
@@ -129,7 +136,7 @@ const Header = () => {
                           </ul>
                         </li>
                         <li>
-                          <NavLink to="/pages">Pages</NavLink>
+                          <NavLink to="">Pages</NavLink>
                           <ul>
                             <li>
                               <NavLink to="/team-details">Team Details</NavLink>
@@ -271,7 +278,7 @@ const Header = () => {
           <ul>
             <li className="menu-item-has-children">
               <NavLink to="/">Home</NavLink>
-              <ul className="sub-menu">
+              {/* <ul className="sub-menu">
                 <li>
                   <NavLink to="/home1">Home Page 1</NavLink>
                 </li>
@@ -284,13 +291,13 @@ const Header = () => {
                 <li>
                   <NavLink to="/home4">Home Page 4</NavLink>
                 </li>
-              </ul>
+              </ul> */}
             </li>
             <li>
               <NavLink to="/about">About Us</NavLink>
             </li>
             <li className="menu-item-has-children">
-              <NavLink to="/pages">Pages</NavLink>
+              <NavLink to="">Pages</NavLink>
               <ul className="sub-menu">
                 <li>
                   <NavLink to="/cause-details">Cause Details</NavLink>
@@ -302,17 +309,17 @@ const Header = () => {
                   <NavLink to="/event-details">Event Details</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/donation-page">Donation Page</NavLink>
+                  <NavLink to="/donation">Donation Page</NavLink>
                 </li>
-                <li>
+                {/* <li>
                   <NavLink to="/product-details">Product Details</NavLink>
                 </li>
                 <li>
                   <NavLink to="/404-error">404 Error</NavLink>
-                </li>
+                </li> */}
               </ul>
             </li>
-            <li className="menu-item-has-children">
+            {/* <li className="menu-item-has-children">
               <NavLink to="/shop">Shop</NavLink>
               <ul className="sub-menu">
                 <li>
@@ -325,21 +332,21 @@ const Header = () => {
                   <NavLink to="/cart-checkout">Cart Checkout</NavLink>
                 </li>
               </ul>
-            </li>
+            </li> */}
             <li className="menu-item-has-children">
-              <NavLink to="/news">News</NavLink>
+              <NavLink to="">News</NavLink>
               <ul className="sub-menu">
                 <li>
-                  <NavLink to="/blog-details-1">Blog Details 1</NavLink>
+                  <NavLink to="/blog">Blog</NavLink>
                 </li>
-                <li>
+                {/* <li>
                   <NavLink to="/blog-details-2">Blog Details 2</NavLink>
-                </li>
+                </li> */}
               </ul>
             </li>
             <li className="menu-item-has-children">
-              <NavLink to="/photo-gallery">Photo Gallery</NavLink>
-              <ul className="sub-menu">
+              <NavLink to="gallery">Photo Gallery</NavLink>
+              {/* <ul className="sub-menu">
                 <li>
                   <NavLink to="/photo-gallery-1">Photo Gallery 1</NavLink>
                 </li>
@@ -349,7 +356,7 @@ const Header = () => {
                 <li>
                   <NavLink to="/photo-gallery-3">Photo Gallery 3</NavLink>
                 </li>
-              </ul>
+              </ul> */}
             </li>
             <li>
               <NavLink to="/contact">Contact</NavLink>
