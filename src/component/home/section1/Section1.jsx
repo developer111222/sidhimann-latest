@@ -52,8 +52,8 @@ const Section1 = () => {
   }, []);
 
   return (
-    <section className="slider-home-1">
-      <div className="slider-container">
+    <section className="slider-one">
+      <div className="slider-cont">
         <div
           className="slides item"
           style={{
