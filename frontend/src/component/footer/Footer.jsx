@@ -97,7 +97,7 @@ const Footer = () => {
                       </g>
                     </svg>
                   </i>
-                  <h5>1199 N. Fairfax St. Suite 300 Alexandria, VA 22314</h5>
+                  <h5>#6, Galaxy Tower,  Bishan Sawroop Colony, Panipat, Haryana</h5>
                 </div>
                 <div className="contact-info mt-3">
                   <i>

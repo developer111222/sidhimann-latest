@@ -70,7 +70,7 @@ const Contact = () => {
             </svg>
           </i>
           <h3>Address</h3>
-          <h6>Street No 12 Honolulu, Huwaii 10 Avenue United State.</h6>
+          <h6>#6, Galaxy Tower,  Bishan Sawroop Colony, Panipat, Haryana</h6>
         </div>
       </div>
     </div>
