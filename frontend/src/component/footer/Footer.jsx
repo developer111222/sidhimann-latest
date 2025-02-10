@@ -8,10 +8,12 @@ const Footer = () => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-xl-4 col-md-6">
-            <div className="footer-logo-one">
-              <a href="index.html">
-                <img alt="logo" src="assets/img/logo.png" style={{width:'300px', borderRadius:'30px'}} />
+            <div className="footer-logo-one" >
+              <div style={{background:'white', width:'330px',padding:'20px',borderRadius:'30px'}}>
+              <a href="/" >
+                <img alt="logo" src="assets/img/logo.png"  style={{width:'300px', borderRadius:'30px'}} />
               </a>
+              </div>
             </div>
           </div>
           <div className="col-xl-3 col-md-6">
