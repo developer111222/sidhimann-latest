@@ -74,9 +74,9 @@
         height: 46px;
         font-size: 16px;
     }
-    .home-life h1 {
+    /* .home-life h1 {
         font-size: 60px;
-    }
+    } */
     .subscribe svg {
         width: 44px;
     }
@@ -1390,10 +1390,10 @@
         padding-bottom: 0;
     }
 }
-@media(max-width: 768px){
-    .home-life h1 {
-        font-size: 76px;
-    }
+@media screen and (max-width: 768px){
+    /* .home-life h1 {
+        font-size: 36px;
+    } */
     .charity-style-three:hover .btn {
         left: 31%;
         top: 23%;
@@ -1953,9 +1953,9 @@
     }
 }
 @media(max-width: 500px){
-    .home-life h1 {
-        font-size: 64px;
-    }
+    /* .home-life h1 {
+        font-size: 30px;
+    } */
     .pd-main-img img {
         width: 100%;
     }
@@ -2205,9 +2205,9 @@
     }
 }
 @media(max-width: 450px){
-    .home-life h1 {
-        font-size: 50px;
-    }
+    /* .home-life h1 {
+        font-size: 30px;
+    } */
     .rating{
         padding-bottom: 20px;
     }

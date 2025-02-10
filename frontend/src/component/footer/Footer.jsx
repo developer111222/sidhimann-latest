@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
           <div className="col-xl-4 col-md-6">
             <div className="footer-logo-one">
               <a href="index.html">
-                <img alt="logo" src="assets/img/logo-w.png" />
+                <img alt="logo" src="assets/img/logo.png" style={{width:'300px', borderRadius:'30px'}} />
               </a>
             </div>
           </div>
@@ -44,7 +45,7 @@ const Footer = () => {
               <div className="widget-title">
                 <h3 className="m-0">Information</h3>
                 <p className="pt-4">
-                  Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
+                At Sidhiman Foundation, we know that small steps can create huge transformations. Established in September 2024, our NGO commits to transforming lives and building a brighter future for the marginalized and underprivileged.
                 </p>
               </div>
             </div>
@@ -54,31 +55,31 @@ const Footer = () => {
                 <ul className="pt-4">
                   <li>
                     <i className="fa-solid fa-angle-right"></i>
-                    <a href="#">Our Founder</a>
+                    <NavLink to="/about">About</NavLink>
                   </li>
                   <li>
                     <i className="fa-solid fa-angle-right"></i>
-                    <a href="#">Multimedia</a>
+                    <NavLink to="/why-education">Education</NavLink>
                   </li>
                   <li>
                     <i className="fa-solid fa-angle-right"></i>
-                    <a href="#">Education</a>
+                    <NavLink to="/healthcare">Healthcare</NavLink>
                   </li>
                   <li>
                     <i className="fa-solid fa-angle-right"></i>
-                    <a href="#">Governance</a>
+                    <NavLink to="/women-empowerment">Women Empowerment</NavLink>
                   </li>
                   <li>
                     <i className="fa-solid fa-angle-right"></i>
-                    <a href="#">Entrepreneurship</a>
+                  <NavLink to="/social-justice-and-advocacy">Social Justice and Advocacy</NavLink>
                   </li>
                   <li>
                     <i className="fa-solid fa-angle-right"></i>
-                    <a href="#">Privacy Policy</a>
+                    <NavLink to="/rural-development">Rural Development</NavLink>
                   </li>
                   <li className="pb-0">
                     <i className="fa-solid fa-angle-right"></i>
-                    <a href="#">Child Education</a>
+                    <NavLink to="/contact">Contact</NavLink>
                   </li>
                 </ul>
               </div>
@@ -103,7 +104,7 @@ const Footer = () => {
                     </svg>
                   </i>
                   <h5>Phone:</h5>
-                  <a href="callto:800-836-4620">800-836-4620</a>
+                  <a href="callto:+917719000078">+91 7719000078</a>
                 </div>
                 <div className="contact-info mt-3">
                   <i>
@@ -114,7 +115,7 @@ const Footer = () => {
                     </svg>
                   </i>
                   <h5>Email:</h5>
-                  <a href="mailto:information@domain.com">information@domain.com</a>
+                  <a href="mailto:sidhimanfoundation@gmail.com">sidhimanfoundation@gmail.com</a>
                 </div>
               </div>
             </div>
@@ -145,8 +146,8 @@ const Footer = () => {
         </div>
         <div className="wpo-lower-footer">
           <p>
-            © 2023 Charity PSD <i className="fa-solid fa-heart px-2"></i>
-            <a href="#"> By Winsfolio</a>, All rights reserved
+            © 2025 Charity <i className="fa-solid fa-heart px-2"></i>
+            <a href="https://www.allindigi.com/"> By Allindigi</a>, All rights reserved
           </p>
           <div className="d-flex align-items-center">
             <a href="#"> Terms of Use</a>

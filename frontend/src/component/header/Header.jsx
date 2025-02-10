@@ -287,20 +287,21 @@ const Header = () => {
               <NavLink to="/about">About Us</NavLink>
             </li>
             <li className="menu-item-has-children">
-              <NavLink to="">Pages</NavLink>
+              <NavLink to="">Services</NavLink>
               <ul className="sub-menu">
-                <li>
-                  <NavLink to="/cause-details">Cause Details</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/team-details">Team Details</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/event-details">Event Details</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/donation">Donation Page</NavLink>
-                </li>
+              <li>
+                          <NavLink to="/why-education">Education</NavLink>
+                        </li>   <li>
+                          <NavLink to="/healthcare">Healthcare</NavLink>
+                        </li>   <li>
+                          <NavLink to="/women-empowerment">Women Empowerment</NavLink>
+                        </li>  
+                        <li>
+                          <NavLink to="/social-justice-and-advocacy">Social Justice and Advocacy</NavLink>
+                        </li>  
+                        <li>
+                          <NavLink to="/rural-development">Rural Development</NavLink>
+                        </li>  
                 {/* <li>
                   <NavLink to="/product-details">Product Details</NavLink>
                 </li>
@@ -323,31 +324,7 @@ const Header = () => {
                 </li>
               </ul>
             </li> */}
-            <li className="menu-item-has-children">
-              <NavLink to="">News</NavLink>
-              <ul className="sub-menu">
-                <li>
-                  <NavLink to="/blog">Blog</NavLink>
-                </li>
-                {/* <li>
-                  <NavLink to="/blog-details-2">Blog Details 2</NavLink>
-                </li> */}
-              </ul>
-            </li>
-            <li className="menu-item-has-children">
-              <NavLink to="gallery">Photo Gallery</NavLink>
-              {/* <ul className="sub-menu">
-                <li>
-                  <NavLink to="/photo-gallery-1">Photo Gallery 1</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/photo-gallery-2">Photo Gallery 2</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/photo-gallery-3">Photo Gallery 3</NavLink>
-                </li>
-              </ul> */}
-            </li>
+          
             <li>
               <NavLink to="/contact">Contact</NavLink>
             </li>

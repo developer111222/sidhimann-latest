@@ -17,11 +17,15 @@ import WomenEmpowernment from './component/women-empowerment/WomenEmpowernment';
 import HealthCare from './component/why-healthcare/HealthCare';
 import SocialJustice from './component/Social Justice and Advocacy/SocialJustice';
 import RuralDevelopment from './component/rural-development/RuralDevelopment';
+import PageNotFound from './component/404 page/PageNotFound';
+import ScrollToTop from './component/scrolltop/ScrollTop';
 
 function App() {
   return (
     <div className="App">
       <Router>
+<ScrollToTop/>
+
         {/* Header is now inside the Router */}
         <Header />
 
@@ -41,6 +45,7 @@ function App() {
           <Route path="/women-empowerment" element={<WomenEmpowernment />} />
           <Route path="/social-justice-and-advocacy" element={<SocialJustice />} />
           <Route path="/rural-development" element={<RuralDevelopment />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
 
         {/* Footer is now inside the Router */}
